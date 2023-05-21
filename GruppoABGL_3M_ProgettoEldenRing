@@ -10,7 +10,7 @@ def upgrade():
     Pdamage = upS[0]
     Boss = bossHp[0]
     player_life = UpV[0] 
-    defence = upD[0] 
+    defence = upD[0]  
 def first_phase(Bdamage = int, blood_lost = int):
     global player_life, halfHP, Boss, Pdamage, bossHp, upS, UpV    
     player_life = UpV[0]
@@ -389,10 +389,7 @@ if menu == "N" or menu == 'n':
                                 print(f'{fg(52)}Margit = Warrior blood must truly run in thy veins, Tarnished.{attr(0)}')
                                 time.sleep(2)
                                 sec_phase(player_life, Boss)
-                                bossHp = np.delete(bossHp, 0)
-                                upS = np.delete(upS, 0)
-                                UpV = np.delete(UpV, 0)
-                                upD = np.delete(upD, 0)                           
+                                upgrade()
                                 key = 0
                                 print(f"{fg(52)}Margit: I shall remember thee, Tarnished.{attr(0)}")
                                 time.sleep(4)
@@ -480,10 +477,10 @@ if menu == "N" or menu == 'n':
                                     print(f"{fg(52)}Godrick: Bear witness.{attr(0)}")
                                     time.sleep(4)
                                     sec_phase(player_life, Boss)
-                                    bossHp = np.delete(bossHp, 0)
-                                    upS = np.delete(upS, 0)
-                                    UpV = np.delete(UpV, 0)
-                                    upD = np.delete(upD, 0)
+                                    
+                                    upgrade()
+                                    
+                                    
                                     print(f"{fg(52)}Godrick: ...I am the lord of all that is golden...{attr(0)}")
                                     time.sleep(4) 
                                     print(f"{fg(52)}Godrick: ..And one day we'll return together...{attr(0)}")
@@ -574,10 +571,10 @@ if menu == "N" or menu == 'n':
                                             print(f'{fg(52)}Morgot = Thy part in this shall not be forgiven{attr(0)}')
                                             time.sleep(3)
                                             sec_phase(player_life, Boss) 
-                                            bossHp = np.delete(bossHp, 0)
-                                            upS = np.delete(upS, 0)
-                                            UpV = np.delete(UpV, 0)
-                                            upD = np.delete(upD, 0)                                                           
+                                            
+                                            upgrade()
+                                            
+                                                                                                       
                                             key += 1
                                             print(f"{fg(52)}Morgot: ...{attr(0)}")
                                             time.sleep(4)
@@ -667,10 +664,10 @@ if menu == "N" or menu == 'n':
                                                         first_phase(Bdamage=random.randint(20, 50), blood_lost=2800)
                                                         print("<giant screams>")
                                                         sec_phase(player_life, Boss)
-                                                        bossHp = np.delete(bossHp, 0)
-                                                        upS = np.delete(upS, 0)
-                                                        UpV = np.delete(UpV, 0)
-                                                        upD = np.delete(upD, 0)
+                                                        
+                                                        upgrade()
+                                                        
+                                                        
                                                         print("After you kill the giant you finaly arriva to the Jar")
                                                         print("After you glimb the Jar you arrive to the top")
                                                         time.sleep(2)
@@ -779,10 +776,10 @@ if menu == "N" or menu == 'n':
                                                         print("second phase")
                                                         sec_phase(player_life, Boss) 
                                                         sec_phase(player_life, Boss)
-                                                        bossHp = np.delete(bossHp, 0)
-                                                        upS = np.delete(upS, 0)
-                                                        UpV = np.delete(UpV, 0)
-                                                        upD = np.delete(upD, 0)
+                                                        
+                                                        upgrade()
+                                                        
+                                                        
                                                         time.sleep(2)
                                                         print("You take the same path to get back")
                                                         time.sleep(2)
@@ -825,10 +822,10 @@ if menu == "N" or menu == 'n':
                                                         print(f'{fg(52)}Maliketh: become my blade once more.{attr(0)}')
                                                         time.sleep(3)
                                                         sec_phase(player_life, Boss)
-                                                        bossHp = np.delete(bossHp, 0)
-                                                        upS = np.delete(upS, 0)
-                                                        UpV = np.delete(UpV, 0)
-                                                        upD = np.delete(upD, 0) 
+                                                        
+                                                        upgrade()
+                                                        
+                                                         
                                                         time.sleep(2)
                                                         print("After you defited him a strange portal spawn")
                                                         time.sleep(2)
@@ -871,10 +868,10 @@ if menu == "N" or menu == 'n':
                                                         time.sleep(4)
                                                         first_phase(Bdamage=random.randint(750, 900), blood_lost=4000)
                                                         sec_phase(player_life, Boss)
-                                                        bossHp = np.delete(bossHp, 0)
-                                                        upS = np.delete(upS, 0)
-                                                        UpV = np.delete(UpV, 0)
-                                                        upD = np.delete(upD, 0)
+                                                        
+                                                        upgrade()
+                                                        
+                                                        
                                                         print("You defited a very strong enemy")
                                                         time.sleep(2)
                                                         print("Now you go where you defited Morgot earlier")
@@ -923,10 +920,10 @@ if menu == "N" or menu == 'n':
                                                         print(f"{fg(52)}Hoarah Loux: Warrior{attr(0)}")
                                                         time.sleep(4)
                                                         sec_phase(player_life, Boss)
-                                                        bossHp = np.delete(bossHp, 0)
-                                                        upS = np.delete(upS, 0)
-                                                        UpV = np.delete(UpV, 0)
-                                                        upD = np.delete(upD, 0)
+                                                        
+                                                        upgrade()
+                                                        
+                                                        
                                                         print("After you defited him you start going to the elden ring")   
                                                         time.sleep(2)
                                                         print("You arrive to the door")
@@ -1000,10 +997,10 @@ if menu == "N" or menu == 'n':
                                                         print("<giant screams>")
                                                         sec_phase(player_life, Boss)
                                                         sec_phase(player_life, Boss)
-                                                        bossHp = np.delete(bossHp, 0)
-                                                        upS = np.delete(upS, 0)
-                                                        UpV = np.delete(UpV, 0)
-                                                        upD = np.delete(upD, 0)
+                                                        
+                                                        upgrade()
+                                                        
+                                                        
                                                         print("After you kill the giant you finaly arriva to the Jar")
                                                         print("After you glimb the Jar you arrive to the top")
                                                         time.sleep(2)
@@ -1112,10 +1109,10 @@ if menu == "N" or menu == 'n':
                                                         print("second phase")
                                                         sec_phase(player_life, Boss)  
                                                         sec_phase(player_life, Boss)
-                                                        bossHp = np.delete(bossHp, 0)
-                                                        upS = np.delete(upS, 0)
-                                                        UpV = np.delete(UpV, 0)
-                                                        upD = np.delete(upD, 0)
+                                                        
+                                                        upgrade()
+                                                        
+                                                        
                                                         print("You get teleported back where you where sleeping")
                                                         time.sleep(2)
                                                         print("You take the same path to get back")
@@ -1159,10 +1156,10 @@ if menu == "N" or menu == 'n':
                                                         print(f'{fg(52)}Maliketh: become my blade once more.{attr(0)}')
                                                         time.sleep(3)
                                                         sec_phase(player_life, Boss)
-                                                        bossHp = np.delete(bossHp, 0)
-                                                        upS = np.delete(upS, 0)
-                                                        UpV = np.delete(UpV, 0)
-                                                        upD = np.delete(upD, 0) 
+                                                        
+                                                        upgrade()
+                                                        
+                                                         
                                                         time.sleep(2)
                                                         print("After you defited him a strange portal spawn")
                                                         time.sleep(2)
@@ -1205,10 +1202,10 @@ if menu == "N" or menu == 'n':
                                                         time.sleep(4)
                                                         first_phase(Bdamage=random.randint(750, 900), blood_lost=4000)
                                                         sec_phase(player_life, Boss)
-                                                        bossHp = np.delete(bossHp, 0)
-                                                        upS = np.delete(upS, 0)
-                                                        UpV = np.delete(UpV, 0)
-                                                        upD = np.delete(upD, 0)
+                                                        
+                                                        upgrade()
+                                                        
+                                                        
                                                         print("You defited a very strong enemy")
                                                         time.sleep(2)
                                                         print("Now you go where you defited Morgot earlier")
@@ -1257,10 +1254,10 @@ if menu == "N" or menu == 'n':
                                                         print(f"{fg(52)}Hoarah Loux: Warrior{attr(0)}")
                                                         time.sleep(4)
                                                         sec_phase(player_life, Boss)
-                                                        bossHp = np.delete(bossHp, 0)
-                                                        upS = np.delete(upS, 0)
-                                                        UpV = np.delete(UpV, 0)
-                                                        upD = np.delete(upD, 0)
+                                                        
+                                                        upgrade()
+                                                        
+                                                        
                                                         print("After you defited him you start going to the elden ring")   
                                                         time.sleep(2)
                                                         print("You arrive to the door")
@@ -1365,10 +1362,10 @@ if menu == "N" or menu == 'n':
                                             time.sleep(3)
                                             sec_phase(player_life, Boss)   
                                             sec_phase(player_life, Boss)
-                                            bossHp = np.delete(bossHp, 0)
-                                            upS = np.delete(upS, 0)
-                                            UpV = np.delete(UpV, 0)
-                                            upD = np.delete(upD, 0)                                                         
+                                            
+                                            upgrade()
+                                            
+                                                                                                     
                                             key += 1
                                             print(f"{fg(52)}Morgot: ...{attr(0)}")
                                             time.sleep(4)
@@ -1459,10 +1456,10 @@ if menu == "N" or menu == 'n':
                                                         print("<giant screams>")
                                                         sec_phase(player_life, Boss)
                                                         sec_phase(player_life, Boss)
-                                                        bossHp = np.delete(bossHp, 0)
-                                                        upS = np.delete(upS, 0)
-                                                        UpV = np.delete(UpV, 0)
-                                                        upD = np.delete(upD, 0)
+                                                        
+                                                        upgrade()
+                                                        
+                                                        
                                                         print("After you kill the giant you finaly arriva to the Jar")
                                                         print("After you glimb the Jar you arrive to the top")
                                                         time.sleep(2)
@@ -1571,10 +1568,10 @@ if menu == "N" or menu == 'n':
                                                         print("second phase")
                                                         sec_phase(player_life, Boss)  
                                                         sec_phase(player_life, Boss)
-                                                        bossHp = np.delete(bossHp, 0)
-                                                        upS = np.delete(upS, 0)
-                                                        UpV = np.delete(UpV, 0)
-                                                        upD = np.delete(upD, 0) 
+                                                        
+                                                        upgrade()
+                                                        
+                                                         
                                                         print("You get teleported back where you where sleeping")
                                                         time.sleep(2)
                                                         print("You take the same path to get back")
@@ -1618,10 +1615,10 @@ if menu == "N" or menu == 'n':
                                                         print(f'{fg(52)}Maliketh: become my blade once more.{attr(0)}')
                                                         time.sleep(3)
                                                         sec_phase(player_life, Boss)
-                                                        bossHp = np.delete(bossHp, 0)
-                                                        upS = np.delete(upS, 0)
-                                                        UpV = np.delete(UpV, 0)
-                                                        upD = np.delete(upD, 0) 
+                                                        
+                                                        upgrade()
+                                                        
+                                                         
                                                         time.sleep(2)
                                                         print("After you defited him a strange portal spawn")
                                                         time.sleep(2)
@@ -1664,10 +1661,10 @@ if menu == "N" or menu == 'n':
                                                         time.sleep(4)
                                                         first_phase(Bdamage=random.randint(750, 900), blood_lost=4000)
                                                         sec_phase(player_life, Boss)
-                                                        bossHp = np.delete(bossHp, 0)
-                                                        upS = np.delete(upS, 0)
-                                                        UpV = np.delete(UpV, 0)
-                                                        upD = np.delete(upD, 0)
+                                                        
+                                                        upgrade()
+                                                        
+                                                        
                                                         print("You defited a very strong enemy")
                                                         time.sleep(2)
                                                         print("Now you go where you defited Morgot earlier")
@@ -1716,10 +1713,10 @@ if menu == "N" or menu == 'n':
                                                         print(f"{fg(52)}Hoarah Loux: Warrior{attr(0)}")
                                                         time.sleep(4)
                                                         sec_phase(player_life, Boss)
-                                                        bossHp = np.delete(bossHp, 0)
-                                                        upS = np.delete(upS, 0)
-                                                        UpV = np.delete(UpV, 0)
-                                                        upD = np.delete(upD, 0)
+                                                        
+                                                        upgrade()
+                                                        
+                                                        
                                                         print("After you defited him you start going to the elden ring")   
                                                         time.sleep(2)
                                                         print("You arrive to the door")
@@ -1793,10 +1790,10 @@ if menu == "N" or menu == 'n':
                                                         print("<giant screams>")
                                                         sec_phase(player_life, Boss)
                                                         sec_phase(player_life, Boss)
-                                                        bossHp = np.delete(bossHp, 0)
-                                                        upS = np.delete(upS, 0)
-                                                        UpV = np.delete(UpV, 0)
-                                                        upD = np.delete(upD, 0)
+                                                        
+                                                        upgrade()
+                                                        
+                                                        
                                                         print("After you kill the giant you finaly arriva to the Jar")
                                                         print("After you glimb the Jar you arrive to the top")
                                                         time.sleep(2)
@@ -1905,10 +1902,10 @@ if menu == "N" or menu == 'n':
                                                         print("second phase")
                                                         sec_phase(player_life, Boss)  
                                                         sec_phase(player_life, Boss)
-                                                        bossHp = np.delete(bossHp, 0)
-                                                        upS = np.delete(upS, 0)
-                                                        UpV = np.delete(UpV, 0)
-                                                        upD = np.delete(upD, 0)
+                                                        
+                                                        upgrade()
+                                                        
+                                                        
                                                         print("You get teleported back where you where sleeping")
                                                         time.sleep(2)
                                                         print("You take the same path to get back")
@@ -1952,10 +1949,10 @@ if menu == "N" or menu == 'n':
                                                         print(f'{fg(52)}Maliketh: become my blade once more.{attr(0)}')
                                                         time.sleep(3)
                                                         sec_phase(player_life, Boss)
-                                                        bossHp = np.delete(bossHp, 0)
-                                                        upS = np.delete(upS, 0)
-                                                        UpV = np.delete(UpV, 0)
-                                                        upD = np.delete(upD, 0) 
+                                                        
+                                                        upgrade()
+                                                        
+                                                         
                                                         time.sleep(2)
                                                         print("After you defited him a strange portal spawn")
                                                         time.sleep(2)
@@ -1998,10 +1995,10 @@ if menu == "N" or menu == 'n':
                                                         time.sleep(4)
                                                         first_phase(Bdamage=random.randint(750, 900), blood_lost=4000)
                                                         sec_phase(player_life, Boss)
-                                                        bossHp = np.delete(bossHp, 0)
-                                                        upS = np.delete(upS, 0)
-                                                        UpV = np.delete(UpV, 0)
-                                                        upD = np.delete(upD, 0)
+                                                        
+                                                        upgrade()
+                                                        
+                                                        
                                                         print("You defited a very strong enemy")
                                                         time.sleep(2)
                                                         print("Now you go where you defited Morgot earlier")
@@ -2050,10 +2047,10 @@ if menu == "N" or menu == 'n':
                                                         print(f"{fg(52)}Hoarah Loux: Warrior{attr(0)}")
                                                         time.sleep(4)
                                                         sec_phase(player_life, Boss)
-                                                        bossHp = np.delete(bossHp, 0)
-                                                        upS = np.delete(upS, 0)
-                                                        UpV = np.delete(UpV, 0)
-                                                        upD = np.delete(upD, 0)
+                                                        
+                                                        upgrade()
+                                                        
+                                                        
                                                         print("After you defited him you start going to the elden ring")   
                                                         time.sleep(2)
                                                         print("You arrive to the door")
@@ -2155,10 +2152,10 @@ if menu == "N" or menu == 'n':
                                         time.sleep(3)
                                         sec_phase(player_life, Boss)    
                                         sec_phase(player_life, Boss)
-                                        bossHp = np.delete(bossHp, 0)
-                                        upS = np.delete(upS, 0)
-                                        UpV = np.delete(UpV, 0)
-                                        upD = np.delete(upD, 0)                                                        
+                                        
+                                        upgrade()
+                                        
+                                                                                                
                                         key += 1
                                         print(f"{fg(52)}Morgot: ...{attr(0)}")
                                         time.sleep(4)
@@ -2249,10 +2246,10 @@ if menu == "N" or menu == 'n':
                                                     print("<giant screams>")
                                                     sec_phase(player_life, Boss)
                                                     sec_phase(player_life, Boss)
-                                                    bossHp = np.delete(bossHp, 0)
-                                                    upS = np.delete(upS, 0)
-                                                    UpV = np.delete(UpV, 0)
-                                                    upD = np.delete(upD, 0)
+                                                    
+                                                    upgrade()
+                                                    
+                                                    
                                                     print("After you kill the giant you finaly arriva to the Jar")
                                                     print("After you glimb the Jar you arrive to the top")
                                                     time.sleep(2)
@@ -2361,10 +2358,10 @@ if menu == "N" or menu == 'n':
                                                     print("second phase")
                                                     sec_phase(player_life, Boss)  
                                                     sec_phase(player_life, Boss)
-                                                    bossHp = np.delete(bossHp, 0)
-                                                    upS = np.delete(upS, 0)
-                                                    UpV = np.delete(UpV, 0)
-                                                    upD = np.delete(upD, 0)
+                                                    
+                                                    upgrade()
+                                                    
+                                                    
                                                     print("You get teleported back where you where sleeping")
                                                     time.sleep(2)
                                                     print("You take the same path to get back")
@@ -2408,10 +2405,10 @@ if menu == "N" or menu == 'n':
                                                     print(f'{fg(52)}Maliketh: become my blade once more.{attr(0)}')
                                                     time.sleep(3)
                                                     sec_phase(player_life, Boss)
-                                                    bossHp = np.delete(bossHp, 0)
-                                                    upS = np.delete(upS, 0)
-                                                    UpV = np.delete(UpV, 0)
-                                                    upD = np.delete(upD, 0) 
+                                                    
+                                                    upgrade()
+                                                    
+                                                     
                                                     time.sleep(2)
                                                     print("After you defited him a strange portal spawn")
                                                     time.sleep(2)
@@ -2454,10 +2451,10 @@ if menu == "N" or menu == 'n':
                                                     time.sleep(4)
                                                     first_phase(Bdamage=random.randint(750, 900), blood_lost=4000)
                                                     sec_phase(player_life, Boss)
-                                                    bossHp = np.delete(bossHp, 0)
-                                                    upS = np.delete(upS, 0)
-                                                    UpV = np.delete(UpV, 0)
-                                                    upD = np.delete(upD, 0)
+                                                    
+                                                    upgrade()
+                                                    
+                                                    
                                                     print("You defited a very strong enemy")
                                                     time.sleep(2)
                                                     print("Now you go where you defited Morgot earlier")
@@ -2506,10 +2503,10 @@ if menu == "N" or menu == 'n':
                                                     print(f"{fg(52)}Hoarah Loux: Warrior{attr(0)}")
                                                     time.sleep(4)
                                                     sec_phase(player_life, Boss)
-                                                    bossHp = np.delete(bossHp, 0)
-                                                    upS = np.delete(upS, 0)
-                                                    UpV = np.delete(UpV, 0)
-                                                    upD = np.delete(upD, 0)
+                                                    
+                                                    upgrade()
+                                                    
+                                                    
                                                     print("After you defited him you start going to the elden ring")   
                                                     time.sleep(2)
                                                     print("You arrive to the door")
@@ -2583,10 +2580,10 @@ if menu == "N" or menu == 'n':
                                                     print("<giant screams>")
                                                     sec_phase(player_life, Boss)
                                                     sec_phase(player_life, Boss)
-                                                    bossHp = np.delete(bossHp, 0)
-                                                    upS = np.delete(upS, 0)
-                                                    UpV = np.delete(UpV, 0)
-                                                    upD = np.delete(upD, 0)
+                                                    
+                                                    upgrade()
+                                                    
+                                                    
                                                     print("After you kill the giant you finaly arriva to the Jar")
                                                     time.sleep(2)
                                                     print("After you glimb the Jar you arrive to the top")
@@ -2695,10 +2692,10 @@ if menu == "N" or menu == 'n':
                                                     print("second phase")
                                                     sec_phase(player_life, Boss)  
                                                     sec_phase(player_life, Boss)
-                                                    bossHp = np.delete(bossHp, 0)
-                                                    upS = np.delete(upS, 0)
-                                                    UpV = np.delete(UpV, 0)
-                                                    upD = np.delete(upD, 0)  
+                                                    
+                                                    upgrade()
+                                                    
+                                                      
                                                     print("You get teleported back where you where sleeping")
                                                     time.sleep(2)
                                                     print("You take the same path to get back")
@@ -2742,10 +2739,10 @@ if menu == "N" or menu == 'n':
                                                     print(f'{fg(52)}Maliketh: become my blade once more.{attr(0)}')
                                                     time.sleep(3)
                                                     sec_phase(player_life, Boss)
-                                                    bossHp = np.delete(bossHp, 0)
-                                                    upS = np.delete(upS, 0)
-                                                    UpV = np.delete(UpV, 0)
-                                                    upD = np.delete(upD, 0) 
+                                                    
+                                                    upgrade()
+                                                    
+                                                     
                                                     time.sleep(2)
                                                     print("After you defited him a strange portal spawn")
                                                     time.sleep(2)
@@ -2788,10 +2785,10 @@ if menu == "N" or menu == 'n':
                                                     time.sleep(4)
                                                     first_phase(Bdamage=random.randint(750, 900), blood_lost=4000)
                                                     sec_phase(player_life, Boss)
-                                                    bossHp = np.delete(bossHp, 0)
-                                                    upS = np.delete(upS, 0)
-                                                    UpV = np.delete(UpV, 0)
-                                                    upD = np.delete(upD, 0)
+                                                    
+                                                    upgrade()
+                                                    
+                                                    
                                                     print("You defited a very strong enemy")
                                                     time.sleep(2)
                                                     print("Now you go where you defited Morgot earlier")
@@ -2840,10 +2837,10 @@ if menu == "N" or menu == 'n':
                                                     print(f"{fg(52)}Hoarah Loux: Warrior{attr(0)}")
                                                     time.sleep(4)
                                                     sec_phase(player_life, Boss)
-                                                    bossHp = np.delete(bossHp, 0)
-                                                    upS = np.delete(upS, 0)
-                                                    UpV = np.delete(UpV, 0)
-                                                    upD = np.delete(upD, 0)
+                                                    
+                                                    upgrade()
+                                                    
+                                                    
                                                     print("After you defited him you start going to the elden ring")   
                                                     time.sleep(2)
                                                     print("You arrive to the door")
@@ -3108,10 +3105,10 @@ if menu == "s" or menu == 'S':
                                         print(f'{fg(52)}Margit = Warrior blood must truly run in thy veins, Tarnished.{attr(0)}')
                                         time.sleep(2)
                                         sec_phase(player_life, Boss)
-                                        bossHp = np.delete(bossHp, 0)
-                                        upS = np.delete(upS, 0)
-                                        UpV = np.delete(UpV, 0)
-                                        upD = np.delete(upD, 0)                           
+                                        
+                                        upgrade()
+                                        
+                                                                   
                                         key = 0
                                         print(f"{fg(52)}Margit: I shall remember thee, Tarnished.{attr(0)}")
                                         time.sleep(4)
@@ -3199,10 +3196,10 @@ if menu == "s" or menu == 'S':
                                             print(f"{fg(52)}Godrick: Bear witness.{attr(0)}")
                                             time.sleep(4)
                                             sec_phase(player_life, Boss)
-                                            bossHp = np.delete(bossHp, 0)
-                                            upS = np.delete(upS, 0)
-                                            UpV = np.delete(UpV, 0)
-                                            upD = np.delete(upD, 0)
+                                            
+                                            upgrade()
+                                            
+                                            
                                             print(f"{fg(52)}Godrick: ...I am the lord of all that is golden...{attr(0)}")
                                             time.sleep(4) 
                                             print(f"{fg(52)}Godrick: ..And one day we'll return together...{attr(0)}")
@@ -3293,10 +3290,10 @@ if menu == "s" or menu == 'S':
                                                     print(f'{fg(52)}Morgot = Thy part in this shall not be forgiven{attr(0)}')
                                                     time.sleep(3)
                                                     sec_phase(player_life, Boss) 
-                                                    bossHp = np.delete(bossHp, 0)
-                                                    upS = np.delete(upS, 0)
-                                                    UpV = np.delete(UpV, 0)
-                                                    upD = np.delete(upD, 0)                                                           
+                                                    
+                                                    upgrade()
+                                                    
+                                                                                                               
                                                     key += 1
                                                     print(f"{fg(52)}Morgot: ...{attr(0)}")
                                                     time.sleep(4)
@@ -3386,10 +3383,10 @@ if menu == "s" or menu == 'S':
                                                                 first_phase(Bdamage=random.randint(20, 50), blood_lost=2800)
                                                                 print("<giant screams>")
                                                                 sec_phase(player_life, Boss)
-                                                                bossHp = np.delete(bossHp, 0)
-                                                                upS = np.delete(upS, 0)
-                                                                UpV = np.delete(UpV, 0)
-                                                                upD = np.delete(upD, 0)
+                                                                
+                                                                upgrade()
+                                                                
+                                                                
                                                                 print("After you kill the giant you finaly arriva to the Jar")
                                                                 print("After you glimb the Jar you arrive to the top")
                                                                 time.sleep(2)
@@ -3498,10 +3495,10 @@ if menu == "s" or menu == 'S':
                                                                 print("second phase")
                                                                 sec_phase(player_life, Boss) 
                                                                 sec_phase(player_life, Boss)
-                                                                bossHp = np.delete(bossHp, 0)
-                                                                upS = np.delete(upS, 0)
-                                                                UpV = np.delete(UpV, 0)
-                                                                upD = np.delete(upD, 0)
+                                                                
+                                                                upgrade()
+                                                                
+                                                                
                                                                 time.sleep(2)
                                                                 print("You take the same path to get back")
                                                                 time.sleep(2)
@@ -3544,10 +3541,10 @@ if menu == "s" or menu == 'S':
                                                                 print(f'{fg(52)}Maliketh: become my blade once more.{attr(0)}')
                                                                 time.sleep(3)
                                                                 sec_phase(player_life, Boss)
-                                                                bossHp = np.delete(bossHp, 0)
-                                                                upS = np.delete(upS, 0)
-                                                                UpV = np.delete(UpV, 0)
-                                                                upD = np.delete(upD, 0) 
+                                                                
+                                                                upgrade()
+                                                                
+                                                                 
                                                                 time.sleep(2)
                                                                 print("After you defited him a strange portal spawn")
                                                                 time.sleep(2)
@@ -3590,10 +3587,10 @@ if menu == "s" or menu == 'S':
                                                                 time.sleep(4)
                                                                 first_phase(Bdamage=random.randint(750, 900), blood_lost=4000)
                                                                 sec_phase(player_life, Boss)
-                                                                bossHp = np.delete(bossHp, 0)
-                                                                upS = np.delete(upS, 0)
-                                                                UpV = np.delete(UpV, 0)
-                                                                upD = np.delete(upD, 0)
+                                                                
+                                                                upgrade()
+                                                                
+                                                                
                                                                 print("You defited a very strong enemy")
                                                                 time.sleep(2)
                                                                 print("Now you go where you defited Morgot earlier")
@@ -3642,10 +3639,10 @@ if menu == "s" or menu == 'S':
                                                                 print(f"{fg(52)}Hoarah Loux: Warrior{attr(0)}")
                                                                 time.sleep(4)
                                                                 sec_phase(player_life, Boss)
-                                                                bossHp = np.delete(bossHp, 0)
-                                                                upS = np.delete(upS, 0)
-                                                                UpV = np.delete(UpV, 0)
-                                                                upD = np.delete(upD, 0)
+                                                                
+                                                                upgrade()
+                                                                
+                                                                
                                                                 print("After you defited him you start going to the elden ring")   
                                                                 time.sleep(2)
                                                                 print("You arrive to the door")
@@ -3719,10 +3716,10 @@ if menu == "s" or menu == 'S':
                                                                 print("<giant screams>")
                                                                 sec_phase(player_life, Boss)
                                                                 sec_phase(player_life, Boss)
-                                                                bossHp = np.delete(bossHp, 0)
-                                                                upS = np.delete(upS, 0)
-                                                                UpV = np.delete(UpV, 0)
-                                                                upD = np.delete(upD, 0)
+                                                                
+                                                                upgrade()
+                                                                
+                                                                
                                                                 print("After you kill the giant you finaly arriva to the Jar")
                                                                 print("After you glimb the Jar you arrive to the top")
                                                                 time.sleep(2)
@@ -3831,10 +3828,10 @@ if menu == "s" or menu == 'S':
                                                                 print("second phase")
                                                                 sec_phase(player_life, Boss)  
                                                                 sec_phase(player_life, Boss)
-                                                                bossHp = np.delete(bossHp, 0)
-                                                                upS = np.delete(upS, 0)
-                                                                UpV = np.delete(UpV, 0)
-                                                                upD = np.delete(upD, 0)
+                                                                
+                                                                upgrade()
+                                                                
+                                                                
                                                                 print("You get teleported back where you where sleeping")
                                                                 time.sleep(2)
                                                                 print("You take the same path to get back")
@@ -3878,10 +3875,10 @@ if menu == "s" or menu == 'S':
                                                                 print(f'{fg(52)}Maliketh: become my blade once more.{attr(0)}')
                                                                 time.sleep(3)
                                                                 sec_phase(player_life, Boss)
-                                                                bossHp = np.delete(bossHp, 0)
-                                                                upS = np.delete(upS, 0)
-                                                                UpV = np.delete(UpV, 0)
-                                                                upD = np.delete(upD, 0) 
+                                                                
+                                                                upgrade()
+                                                                
+                                                                 
                                                                 time.sleep(2)
                                                                 print("After you defited him a strange portal spawn")
                                                                 time.sleep(2)
@@ -3924,10 +3921,10 @@ if menu == "s" or menu == 'S':
                                                                 time.sleep(4)
                                                                 first_phase(Bdamage=random.randint(750, 900), blood_lost=4000)
                                                                 sec_phase(player_life, Boss)
-                                                                bossHp = np.delete(bossHp, 0)
-                                                                upS = np.delete(upS, 0)
-                                                                UpV = np.delete(UpV, 0)
-                                                                upD = np.delete(upD, 0)
+                                                                
+                                                                upgrade()
+                                                                
+                                                                
                                                                 print("You defited a very strong enemy")
                                                                 time.sleep(2)
                                                                 print("Now you go where you defited Morgot earlier")
@@ -3976,10 +3973,10 @@ if menu == "s" or menu == 'S':
                                                                 print(f"{fg(52)}Hoarah Loux: Warrior{attr(0)}")
                                                                 time.sleep(4)
                                                                 sec_phase(player_life, Boss)
-                                                                bossHp = np.delete(bossHp, 0)
-                                                                upS = np.delete(upS, 0)
-                                                                UpV = np.delete(UpV, 0)
-                                                                upD = np.delete(upD, 0)
+                                                                
+                                                                upgrade()
+                                                                
+                                                                
                                                                 print("After you defited him you start going to the elden ring")   
                                                                 time.sleep(2)
                                                                 print("You arrive to the door")
@@ -4084,10 +4081,10 @@ if menu == "s" or menu == 'S':
                                                     time.sleep(3)
                                                     sec_phase(player_life, Boss)   
                                                     sec_phase(player_life, Boss)
-                                                    bossHp = np.delete(bossHp, 0)
-                                                    upS = np.delete(upS, 0)
-                                                    UpV = np.delete(UpV, 0)
-                                                    upD = np.delete(upD, 0)                                                         
+                                                    
+                                                    upgrade()
+                                                    
+                                                                                                             
                                                     key += 1
                                                     print(f"{fg(52)}Morgot: ...{attr(0)}")
                                                     time.sleep(4)
@@ -4178,10 +4175,10 @@ if menu == "s" or menu == 'S':
                                                                 print("<giant screams>")
                                                                 sec_phase(player_life, Boss)
                                                                 sec_phase(player_life, Boss)
-                                                                bossHp = np.delete(bossHp, 0)
-                                                                upS = np.delete(upS, 0)
-                                                                UpV = np.delete(UpV, 0)
-                                                                upD = np.delete(upD, 0)
+                                                                
+                                                                upgrade()
+                                                                
+                                                                
                                                                 print("After you kill the giant you finaly arriva to the Jar")
                                                                 print("After you glimb the Jar you arrive to the top")
                                                                 time.sleep(2)
@@ -4290,10 +4287,10 @@ if menu == "s" or menu == 'S':
                                                                 print("second phase")
                                                                 sec_phase(player_life, Boss)  
                                                                 sec_phase(player_life, Boss)
-                                                                bossHp = np.delete(bossHp, 0)
-                                                                upS = np.delete(upS, 0)
-                                                                UpV = np.delete(UpV, 0)
-                                                                upD = np.delete(upD, 0) 
+                                                                
+                                                                upgrade()
+                                                                
+                                                                 
                                                                 print("You get teleported back where you where sleeping")
                                                                 time.sleep(2)
                                                                 print("You take the same path to get back")
@@ -4337,10 +4334,10 @@ if menu == "s" or menu == 'S':
                                                                 print(f'{fg(52)}Maliketh: become my blade once more.{attr(0)}')
                                                                 time.sleep(3)
                                                                 sec_phase(player_life, Boss)
-                                                                bossHp = np.delete(bossHp, 0)
-                                                                upS = np.delete(upS, 0)
-                                                                UpV = np.delete(UpV, 0)
-                                                                upD = np.delete(upD, 0) 
+                                                                
+                                                                upgrade()
+                                                                
+                                                                 
                                                                 time.sleep(2)
                                                                 print("After you defited him a strange portal spawn")
                                                                 time.sleep(2)
@@ -4383,10 +4380,10 @@ if menu == "s" or menu == 'S':
                                                                 time.sleep(4)
                                                                 first_phase(Bdamage=random.randint(750, 900), blood_lost=4000)
                                                                 sec_phase(player_life, Boss)
-                                                                bossHp = np.delete(bossHp, 0)
-                                                                upS = np.delete(upS, 0)
-                                                                UpV = np.delete(UpV, 0)
-                                                                upD = np.delete(upD, 0)
+                                                                
+                                                                upgrade()
+                                                                
+                                                                
                                                                 print("You defited a very strong enemy")
                                                                 time.sleep(2)
                                                                 print("Now you go where you defited Morgot earlier")
@@ -4435,10 +4432,10 @@ if menu == "s" or menu == 'S':
                                                                 print(f"{fg(52)}Hoarah Loux: Warrior{attr(0)}")
                                                                 time.sleep(4)
                                                                 sec_phase(player_life, Boss)
-                                                                bossHp = np.delete(bossHp, 0)
-                                                                upS = np.delete(upS, 0)
-                                                                UpV = np.delete(UpV, 0)
-                                                                upD = np.delete(upD, 0)
+                                                                
+                                                                upgrade()
+                                                                
+                                                                
                                                                 print("After you defited him you start going to the elden ring")   
                                                                 time.sleep(2)
                                                                 print("You arrive to the door")
@@ -4512,10 +4509,10 @@ if menu == "s" or menu == 'S':
                                                                 print("<giant screams>")
                                                                 sec_phase(player_life, Boss)
                                                                 sec_phase(player_life, Boss)
-                                                                bossHp = np.delete(bossHp, 0)
-                                                                upS = np.delete(upS, 0)
-                                                                UpV = np.delete(UpV, 0)
-                                                                upD = np.delete(upD, 0)
+                                                                
+                                                                upgrade()
+                                                                
+                                                                
                                                                 print("After you kill the giant you finaly arriva to the Jar")
                                                                 print("After you glimb the Jar you arrive to the top")
                                                                 time.sleep(2)
@@ -4624,10 +4621,10 @@ if menu == "s" or menu == 'S':
                                                                 print("second phase")
                                                                 sec_phase(player_life, Boss)  
                                                                 sec_phase(player_life, Boss)
-                                                                bossHp = np.delete(bossHp, 0)
-                                                                upS = np.delete(upS, 0)
-                                                                UpV = np.delete(UpV, 0)
-                                                                upD = np.delete(upD, 0)
+                                                                
+                                                                upgrade()
+                                                                
+                                                                
                                                                 print("You get teleported back where you where sleeping")
                                                                 time.sleep(2)
                                                                 print("You take the same path to get back")
@@ -4671,10 +4668,10 @@ if menu == "s" or menu == 'S':
                                                                 print(f'{fg(52)}Maliketh: become my blade once more.{attr(0)}')
                                                                 time.sleep(3)
                                                                 sec_phase(player_life, Boss)
-                                                                bossHp = np.delete(bossHp, 0)
-                                                                upS = np.delete(upS, 0)
-                                                                UpV = np.delete(UpV, 0)
-                                                                upD = np.delete(upD, 0) 
+                                                                
+                                                                upgrade()
+                                                                
+                                                                 
                                                                 time.sleep(2)
                                                                 print("After you defited him a strange portal spawn")
                                                                 time.sleep(2)
@@ -4717,10 +4714,10 @@ if menu == "s" or menu == 'S':
                                                                 time.sleep(4)
                                                                 first_phase(Bdamage=random.randint(750, 900), blood_lost=4000)
                                                                 sec_phase(player_life, Boss)
-                                                                bossHp = np.delete(bossHp, 0)
-                                                                upS = np.delete(upS, 0)
-                                                                UpV = np.delete(UpV, 0)
-                                                                upD = np.delete(upD, 0)
+                                                                
+                                                                upgrade()
+                                                                
+                                                                
                                                                 print("You defited a very strong enemy")
                                                                 time.sleep(2)
                                                                 print("Now you go where you defited Morgot earlier")
@@ -4769,10 +4766,10 @@ if menu == "s" or menu == 'S':
                                                                 print(f"{fg(52)}Hoarah Loux: Warrior{attr(0)}")
                                                                 time.sleep(4)
                                                                 sec_phase(player_life, Boss)
-                                                                bossHp = np.delete(bossHp, 0)
-                                                                upS = np.delete(upS, 0)
-                                                                UpV = np.delete(UpV, 0)
-                                                                upD = np.delete(upD, 0)
+                                                                
+                                                                upgrade()
+                                                                
+                                                                
                                                                 print("After you defited him you start going to the elden ring")   
                                                                 time.sleep(2)
                                                                 print("You arrive to the door")
@@ -4874,10 +4871,10 @@ if menu == "s" or menu == 'S':
                                                 time.sleep(3)
                                                 sec_phase(player_life, Boss)    
                                                 sec_phase(player_life, Boss)
-                                                bossHp = np.delete(bossHp, 0)
-                                                upS = np.delete(upS, 0)
-                                                UpV = np.delete(UpV, 0)
-                                                upD = np.delete(upD, 0)                                                        
+                                                
+                                                upgrade()
+                                                
+                                                                                                        
                                                 key += 1
                                                 print(f"{fg(52)}Morgot: ...{attr(0)}")
                                                 time.sleep(4)
@@ -4968,10 +4965,10 @@ if menu == "s" or menu == 'S':
                                                             print("<giant screams>")
                                                             sec_phase(player_life, Boss)
                                                             sec_phase(player_life, Boss)
-                                                            bossHp = np.delete(bossHp, 0)
-                                                            upS = np.delete(upS, 0)
-                                                            UpV = np.delete(UpV, 0)
-                                                            upD = np.delete(upD, 0)
+                                                            
+                                                            upgrade()
+                                                            
+                                                            
                                                             print("After you kill the giant you finaly arriva to the Jar")
                                                             print("After you glimb the Jar you arrive to the top")
                                                             time.sleep(2)
@@ -5080,10 +5077,10 @@ if menu == "s" or menu == 'S':
                                                             print("second phase")
                                                             sec_phase(player_life, Boss)  
                                                             sec_phase(player_life, Boss)
-                                                            bossHp = np.delete(bossHp, 0)
-                                                            upS = np.delete(upS, 0)
-                                                            UpV = np.delete(UpV, 0)
-                                                            upD = np.delete(upD, 0)
+                                                            
+                                                            upgrade()
+                                                            
+                                                            
                                                             print("You get teleported back where you where sleeping")
                                                             time.sleep(2)
                                                             print("You take the same path to get back")
@@ -5127,10 +5124,10 @@ if menu == "s" or menu == 'S':
                                                             print(f'{fg(52)}Maliketh: become my blade once more.{attr(0)}')
                                                             time.sleep(3)
                                                             sec_phase(player_life, Boss)
-                                                            bossHp = np.delete(bossHp, 0)
-                                                            upS = np.delete(upS, 0)
-                                                            UpV = np.delete(UpV, 0)
-                                                            upD = np.delete(upD, 0) 
+                                                            
+                                                            upgrade()
+                                                            
+                                                             
                                                             time.sleep(2)
                                                             print("After you defited him a strange portal spawn")
                                                             time.sleep(2)
@@ -5173,10 +5170,10 @@ if menu == "s" or menu == 'S':
                                                             time.sleep(4)
                                                             first_phase(Bdamage=random.randint(750, 900), blood_lost=4000)
                                                             sec_phase(player_life, Boss)
-                                                            bossHp = np.delete(bossHp, 0)
-                                                            upS = np.delete(upS, 0)
-                                                            UpV = np.delete(UpV, 0)
-                                                            upD = np.delete(upD, 0)
+                                                            
+                                                            upgrade()
+                                                            
+                                                            
                                                             print("You defited a very strong enemy")
                                                             time.sleep(2)
                                                             print("Now you go where you defited Morgot earlier")
@@ -5225,10 +5222,10 @@ if menu == "s" or menu == 'S':
                                                             print(f"{fg(52)}Hoarah Loux: Warrior{attr(0)}")
                                                             time.sleep(4)
                                                             sec_phase(player_life, Boss)
-                                                            bossHp = np.delete(bossHp, 0)
-                                                            upS = np.delete(upS, 0)
-                                                            UpV = np.delete(UpV, 0)
-                                                            upD = np.delete(upD, 0)
+                                                            
+                                                            upgrade()
+                                                            
+                                                            
                                                             print("After you defited him you start going to the elden ring")   
                                                             time.sleep(2)
                                                             print("You arrive to the door")
@@ -5302,10 +5299,10 @@ if menu == "s" or menu == 'S':
                                                             print("<giant screams>")
                                                             sec_phase(player_life, Boss)
                                                             sec_phase(player_life, Boss)
-                                                            bossHp = np.delete(bossHp, 0)
-                                                            upS = np.delete(upS, 0)
-                                                            UpV = np.delete(UpV, 0)
-                                                            upD = np.delete(upD, 0)
+                                                            
+                                                            upgrade()
+                                                            
+                                                            
                                                             print("After you kill the giant you finaly arriva to the Jar")
                                                             time.sleep(2)
                                                             print("After you glimb the Jar you arrive to the top")
@@ -5414,10 +5411,10 @@ if menu == "s" or menu == 'S':
                                                             print("second phase")
                                                             sec_phase(player_life, Boss)  
                                                             sec_phase(player_life, Boss)
-                                                            bossHp = np.delete(bossHp, 0)
-                                                            upS = np.delete(upS, 0)
-                                                            UpV = np.delete(UpV, 0)
-                                                            upD = np.delete(upD, 0)  
+                                                            
+                                                            upgrade()
+                                                            
+                                                              
                                                             print("You get teleported back where you where sleeping")
                                                             time.sleep(2)
                                                             print("You take the same path to get back")
@@ -5461,10 +5458,10 @@ if menu == "s" or menu == 'S':
                                                             print(f'{fg(52)}Maliketh: become my blade once more.{attr(0)}')
                                                             time.sleep(3)
                                                             sec_phase(player_life, Boss)
-                                                            bossHp = np.delete(bossHp, 0)
-                                                            upS = np.delete(upS, 0)
-                                                            UpV = np.delete(UpV, 0)
-                                                            upD = np.delete(upD, 0) 
+                                                            
+                                                            upgrade()
+                                                            
+                                                             
                                                             time.sleep(2)
                                                             print("After you defited him a strange portal spawn")
                                                             time.sleep(2)
@@ -5507,10 +5504,10 @@ if menu == "s" or menu == 'S':
                                                             time.sleep(4)
                                                             first_phase(Bdamage=random.randint(750, 900), blood_lost=4000)
                                                             sec_phase(player_life, Boss)
-                                                            bossHp = np.delete(bossHp, 0)
-                                                            upS = np.delete(upS, 0)
-                                                            UpV = np.delete(UpV, 0)
-                                                            upD = np.delete(upD, 0)
+                                                            
+                                                            upgrade()
+                                                            
+                                                            
                                                             print("You defited a very strong enemy")
                                                             time.sleep(2)
                                                             print("Now you go where you defited Morgot earlier")
@@ -5559,10 +5556,10 @@ if menu == "s" or menu == 'S':
                                                             print(f"{fg(52)}Hoarah Loux: Warrior{attr(0)}")
                                                             time.sleep(4)
                                                             sec_phase(player_life, Boss)
-                                                            bossHp = np.delete(bossHp, 0)
-                                                            upS = np.delete(upS, 0)
-                                                            UpV = np.delete(UpV, 0)
-                                                            upD = np.delete(upD, 0)
+                                                            
+                                                            upgrade()
+                                                            
+                                                            
                                                             print("After you defited him you start going to the elden ring")   
                                                             time.sleep(2)
                                                             print("You arrive to the door")
