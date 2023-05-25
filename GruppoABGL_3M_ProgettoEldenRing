@@ -127,14 +127,14 @@ def fight_npc(Npc_life, player_life):
         print("You died")
         time.sleep(2)
         exit()
-def save_progress(Pdamage, player_life, difence, blood_lost, Boss):
+def save_progress(Pdamage, player_life, difence, blood_lost, Boss): #this feature works partially
     with open(filename, "w") as f:
         f.write(str(Pdamage) + "\n")
         f.write(str(player_life) + "\n")
         f.write(str(difence) + "\n")
         f.write(str(blood_lost) + "\n")
         f.write(str(Boss))
-def load_progress():
+def load_progress(): #this feature works partially
     if not os.path.exists(filename):
         return None
     with open(filename, 'r') as f:
