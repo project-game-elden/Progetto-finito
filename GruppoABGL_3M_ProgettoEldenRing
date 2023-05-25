@@ -772,7 +772,7 @@ if menu == "N" or menu == 'n':
                                                         first_phase(Bdamage=random.randint(550, 700), blood_lost=3600)
                                                         print("second phase")
                                                         sec_phase(player_life, Boss) 
-                                                        sec_phase(player_life, Boss)
+                                                        
                                                         
                                                         upgrade()
                                                         
@@ -993,7 +993,7 @@ if menu == "N" or menu == 'n':
                                                         first_phase(Bdamage=random.randint(20, 50), blood_lost=2800)
                                                         print("<giant screams>")
                                                         sec_phase(player_life, Boss)
-                                                        sec_phase(player_life, Boss)
+                                                        
                                                         
                                                         upgrade()
                                                         
@@ -1105,7 +1105,7 @@ if menu == "N" or menu == 'n':
                                                         first_phase(Bdamage=random.randint(550, 700), blood_lost=3600)
                                                         print("second phase")
                                                         sec_phase(player_life, Boss)  
-                                                        sec_phase(player_life, Boss)
+                                                        
                                                         
                                                         upgrade()
                                                         
@@ -1358,7 +1358,7 @@ if menu == "N" or menu == 'n':
                                             print(f'{fg(52)}Morgot = Thy part in this shall not be forgiven{attr(0)}')
                                             time.sleep(3)
                                             sec_phase(player_life, Boss)   
-                                            sec_phase(player_life, Boss)
+                                            
                                             
                                             upgrade()
                                             
@@ -1451,7 +1451,7 @@ if menu == "N" or menu == 'n':
                                                         print("<Fire Giant Boss>")
                                                         first_phase(Bdamage=random.randint(20, 50), blood_lost=2800)
                                                         print("<giant screams>")
-                                                        sec_phase(player_life, Boss)
+                                                        
                                                         sec_phase(player_life, Boss)
                                                         
                                                         upgrade()
@@ -1564,7 +1564,7 @@ if menu == "N" or menu == 'n':
                                                         first_phase(Bdamage=random.randint(550, 700), blood_lost=3600)
                                                         print("second phase")
                                                         sec_phase(player_life, Boss)  
-                                                        sec_phase(player_life, Boss)
+                                                        
                                                         
                                                         upgrade()
                                                         
@@ -1786,7 +1786,7 @@ if menu == "N" or menu == 'n':
                                                         first_phase(Bdamage=random.randint(20, 50), blood_lost=2800)
                                                         print("<giant screams>")
                                                         sec_phase(player_life, Boss)
-                                                        sec_phase(player_life, Boss)
+                                                        
                                                         
                                                         upgrade()
                                                         
@@ -1897,7 +1897,7 @@ if menu == "N" or menu == 'n':
                                                         print("<Boss room>")
                                                         first_phase(Bdamage=random.randint(550, 700), blood_lost=3600)
                                                         print("second phase")
-                                                        sec_phase(player_life, Boss)  
+                                                          
                                                         sec_phase(player_life, Boss)
                                                         
                                                         upgrade()
@@ -2148,7 +2148,7 @@ if menu == "N" or menu == 'n':
                                         print(f'{fg(52)}Morgot = Thy part in this shall not be forgiven{attr(0)}')
                                         time.sleep(3)
                                         sec_phase(player_life, Boss)    
-                                        sec_phase(player_life, Boss)
+                                        
                                         
                                         upgrade()
                                         
@@ -2241,7 +2241,7 @@ if menu == "N" or menu == 'n':
                                                     print("<Fire Giant Boss>")
                                                     first_phase(Bdamage=random.randint(20, 50), blood_lost=2800)
                                                     print("<giant screams>")
-                                                    sec_phase(player_life, Boss)
+                                                    
                                                     sec_phase(player_life, Boss)
                                                     
                                                     upgrade()
@@ -2354,7 +2354,7 @@ if menu == "N" or menu == 'n':
                                                     first_phase(Bdamage=random.randint(550, 700), blood_lost=3600)
                                                     print("second phase")
                                                     sec_phase(player_life, Boss)  
-                                                    sec_phase(player_life, Boss)
+                                                    
                                                     
                                                     upgrade()
                                                     
@@ -2576,7 +2576,7 @@ if menu == "N" or menu == 'n':
                                                     first_phase(Bdamage=random.randint(20, 50), blood_lost=2800)
                                                     print("<giant screams>")
                                                     sec_phase(player_life, Boss)
-                                                    sec_phase(player_life, Boss)
+                                                    
                                                     
                                                     upgrade()
                                                     
@@ -2687,7 +2687,7 @@ if menu == "N" or menu == 'n':
                                                     print("<Boss room>")
                                                     first_phase(Bdamage=random.randint(550, 700), blood_lost=3600)
                                                     print("second phase")
-                                                    sec_phase(player_life, Boss)  
+                                                      
                                                     sec_phase(player_life, Boss)
                                                     
                                                     upgrade()
@@ -3301,7 +3301,7 @@ if menu == "N" or menu == 'n':
                                                         first_phase(Bdamage=random.randint(550, 700), blood_lost=3600)
                                                         print("second phase")
                                                         sec_phase(player_life, Boss) 
-                                                        sec_phase(player_life, Boss)
+                                                        
                                                         
                                                         upgrade()
                                                         
@@ -3522,7 +3522,7 @@ if menu == "N" or menu == 'n':
                                                         first_phase(Bdamage=random.randint(20, 50), blood_lost=2800)
                                                         print("<giant screams>")
                                                         sec_phase(player_life, Boss)
-                                                        sec_phase(player_life, Boss)
+                                                        
                                                         
                                                         upgrade()
                                                         
@@ -3633,7 +3633,7 @@ if menu == "N" or menu == 'n':
                                                         print("<Boss room>")
                                                         first_phase(Bdamage=random.randint(550, 700), blood_lost=3600)
                                                         print("second phase")
-                                                        sec_phase(player_life, Boss)  
+                                                          
                                                         sec_phase(player_life, Boss)
                                                         
                                                         upgrade()
@@ -3887,7 +3887,7 @@ if menu == "N" or menu == 'n':
                                             print(f'{fg(52)}Morgot = Thy part in this shall not be forgiven{attr(0)}')
                                             time.sleep(3)
                                             sec_phase(player_life, Boss)   
-                                            sec_phase(player_life, Boss)
+                                            
                                             
                                             upgrade()
                                             
@@ -3981,7 +3981,7 @@ if menu == "N" or menu == 'n':
                                                         first_phase(Bdamage=random.randint(20, 50), blood_lost=2800)
                                                         print("<giant screams>")
                                                         sec_phase(player_life, Boss)
-                                                        sec_phase(player_life, Boss)
+                                                        
                                                         
                                                         upgrade()
                                                         
@@ -4093,7 +4093,7 @@ if menu == "N" or menu == 'n':
                                                         first_phase(Bdamage=random.randint(550, 700), blood_lost=3600)
                                                         print("second phase")
                                                         sec_phase(player_life, Boss)  
-                                                        sec_phase(player_life, Boss)
+                                                        
                                                         
                                                         upgrade()
                                                         
@@ -4315,7 +4315,7 @@ if menu == "N" or menu == 'n':
                                                         first_phase(Bdamage=random.randint(20, 50), blood_lost=2800)
                                                         print("<giant screams>")
                                                         sec_phase(player_life, Boss)
-                                                        sec_phase(player_life, Boss)
+                                                        
                                                         
                                                         upgrade()
                                                         
@@ -4426,7 +4426,7 @@ if menu == "N" or menu == 'n':
                                                         print("<Boss room>")
                                                         first_phase(Bdamage=random.randint(550, 700), blood_lost=3600)
                                                         print("second phase")
-                                                        sec_phase(player_life, Boss)  
+                                                          
                                                         sec_phase(player_life, Boss)
                                                         
                                                         upgrade()
@@ -4677,7 +4677,7 @@ if menu == "N" or menu == 'n':
                                         print(f'{fg(52)}Morgot = Thy part in this shall not be forgiven{attr(0)}')
                                         time.sleep(3)
                                         sec_phase(player_life, Boss)    
-                                        sec_phase(player_life, Boss)
+                                        
                                         
                                         upgrade()
                                         
@@ -4770,7 +4770,7 @@ if menu == "N" or menu == 'n':
                                                     print("<Fire Giant Boss>")
                                                     first_phase(Bdamage=random.randint(20, 50), blood_lost=2800)
                                                     print("<giant screams>")
-                                                    sec_phase(player_life, Boss)
+                                                    
                                                     sec_phase(player_life, Boss)
                                                     
                                                     upgrade()
@@ -4882,7 +4882,7 @@ if menu == "N" or menu == 'n':
                                                     print("<Boss room>")
                                                     first_phase(Bdamage=random.randint(550, 700), blood_lost=3600)
                                                     print("second phase")
-                                                    sec_phase(player_life, Boss)  
+                                                      
                                                     sec_phase(player_life, Boss)
                                                     
                                                     upgrade()
@@ -5105,7 +5105,7 @@ if menu == "N" or menu == 'n':
                                                     first_phase(Bdamage=random.randint(20, 50), blood_lost=2800)
                                                     print("<giant screams>")
                                                     sec_phase(player_life, Boss)
-                                                    sec_phase(player_life, Boss)
+                                                    
                                                     
                                                     upgrade()
                                                     
@@ -5216,7 +5216,7 @@ if menu == "N" or menu == 'n':
                                                     print("<Boss room>")
                                                     first_phase(Bdamage=random.randint(550, 700), blood_lost=3600)
                                                     print("second phase")
-                                                    sec_phase(player_life, Boss)  
+                                                      
                                                     sec_phase(player_life, Boss)
                                                     
                                                     upgrade()
@@ -6017,7 +6017,7 @@ if menu == "s" or menu == 'S':
                                                                 first_phase(Bdamage=random.randint(550, 700), blood_lost=3600)
                                                                 print("second phase")
                                                                 sec_phase(player_life, Boss) 
-                                                                sec_phase(player_life, Boss)
+                                                                
                                                                 
                                                                 upgrade()
                                                                 
@@ -6238,7 +6238,7 @@ if menu == "s" or menu == 'S':
                                                                 first_phase(Bdamage=random.randint(20, 50), blood_lost=2800)
                                                                 print("<giant screams>")
                                                                 sec_phase(player_life, Boss)
-                                                                sec_phase(player_life, Boss)
+                                                                
                                                                 
                                                                 upgrade()
                                                                 
@@ -6349,7 +6349,7 @@ if menu == "s" or menu == 'S':
                                                                 print("<Boss room>")
                                                                 first_phase(Bdamage=random.randint(550, 700), blood_lost=3600)
                                                                 print("second phase")
-                                                                sec_phase(player_life, Boss)  
+                                                                  
                                                                 sec_phase(player_life, Boss)
                                                                 
                                                                 upgrade()
@@ -6603,7 +6603,7 @@ if menu == "s" or menu == 'S':
                                                     print(f'{fg(52)}Morgot = Thy part in this shall not be forgiven{attr(0)}')
                                                     time.sleep(3)
                                                     sec_phase(player_life, Boss)   
-                                                    sec_phase(player_life, Boss)
+                                                    
                                                     
                                                     upgrade()
                                                     
@@ -6696,7 +6696,7 @@ if menu == "s" or menu == 'S':
                                                                 print("<Fire Giant Boss>")
                                                                 first_phase(Bdamage=random.randint(20, 50), blood_lost=2800)
                                                                 print("<giant screams>")
-                                                                sec_phase(player_life, Boss)
+                                                                
                                                                 sec_phase(player_life, Boss)
                                                                 
                                                                 upgrade()
@@ -6809,7 +6809,7 @@ if menu == "s" or menu == 'S':
                                                                 first_phase(Bdamage=random.randint(550, 700), blood_lost=3600)
                                                                 print("second phase")
                                                                 sec_phase(player_life, Boss)  
-                                                                sec_phase(player_life, Boss)
+                                                                
                                                                 
                                                                 upgrade()
                                                                 
@@ -7031,7 +7031,7 @@ if menu == "s" or menu == 'S':
                                                                 first_phase(Bdamage=random.randint(20, 50), blood_lost=2800)
                                                                 print("<giant screams>")
                                                                 sec_phase(player_life, Boss)
-                                                                sec_phase(player_life, Boss)
+                                                                
                                                                 
                                                                 upgrade()
                                                                 
@@ -7142,7 +7142,7 @@ if menu == "s" or menu == 'S':
                                                                 print("<Boss room>")
                                                                 first_phase(Bdamage=random.randint(550, 700), blood_lost=3600)
                                                                 print("second phase")
-                                                                sec_phase(player_life, Boss)  
+                                                                  
                                                                 sec_phase(player_life, Boss)
                                                                 
                                                                 upgrade()
@@ -7393,7 +7393,7 @@ if menu == "s" or menu == 'S':
                                                 print(f'{fg(52)}Morgot = Thy part in this shall not be forgiven{attr(0)}')
                                                 time.sleep(3)
                                                 sec_phase(player_life, Boss)    
-                                                sec_phase(player_life, Boss)
+                                                
                                                 
                                                 upgrade()
                                                 
@@ -7486,7 +7486,7 @@ if menu == "s" or menu == 'S':
                                                             print("<Fire Giant Boss>")
                                                             first_phase(Bdamage=random.randint(20, 50), blood_lost=2800)
                                                             print("<giant screams>")
-                                                            sec_phase(player_life, Boss)
+                                                            
                                                             sec_phase(player_life, Boss)
                                                             
                                                             upgrade()
@@ -7599,7 +7599,7 @@ if menu == "s" or menu == 'S':
                                                             first_phase(Bdamage=random.randint(550, 700), blood_lost=3600)
                                                             print("second phase")
                                                             sec_phase(player_life, Boss)  
-                                                            sec_phase(player_life, Boss)
+                                                            
                                                             
                                                             upgrade()
                                                             
@@ -7821,7 +7821,7 @@ if menu == "s" or menu == 'S':
                                                             first_phase(Bdamage=random.randint(20, 50), blood_lost=2800)
                                                             print("<giant screams>")
                                                             sec_phase(player_life, Boss)
-                                                            sec_phase(player_life, Boss)
+                                                            
                                                             
                                                             upgrade()
                                                             
@@ -7932,7 +7932,7 @@ if menu == "s" or menu == 'S':
                                                             print("<Boss room>")
                                                             first_phase(Bdamage=random.randint(550, 700), blood_lost=3600)
                                                             print("second phase")
-                                                            sec_phase(player_life, Boss)  
+                                                              
                                                             sec_phase(player_life, Boss)
                                                             
                                                             upgrade()
@@ -8549,7 +8549,7 @@ if menu == "s" or menu == 'S':
                                                                 first_phase(Bdamage=random.randint(550, 700), blood_lost=3600)
                                                                 print("second phase")
                                                                 sec_phase(player_life, Boss) 
-                                                                sec_phase(player_life, Boss)
+                                                                
                                                                 
                                                                 upgrade()
                                                                 
@@ -8770,7 +8770,7 @@ if menu == "s" or menu == 'S':
                                                                 first_phase(Bdamage=random.randint(20, 50), blood_lost=2800)
                                                                 print("<giant screams>")
                                                                 sec_phase(player_life, Boss)
-                                                                sec_phase(player_life, Boss)
+                                                                
                                                                 
                                                                 upgrade()
                                                                 
@@ -8881,7 +8881,7 @@ if menu == "s" or menu == 'S':
                                                                 print("<Boss room>")
                                                                 first_phase(Bdamage=random.randint(550, 700), blood_lost=3600)
                                                                 print("second phase")
-                                                                sec_phase(player_life, Boss)  
+                                                                  
                                                                 sec_phase(player_life, Boss)
                                                                 
                                                                 upgrade()
@@ -9135,7 +9135,7 @@ if menu == "s" or menu == 'S':
                                                     print(f'{fg(52)}Morgot = Thy part in this shall not be forgiven{attr(0)}')
                                                     time.sleep(3)
                                                     sec_phase(player_life, Boss)   
-                                                    sec_phase(player_life, Boss)
+                                                    
                                                     
                                                     upgrade()
                                                     
@@ -9228,7 +9228,7 @@ if menu == "s" or menu == 'S':
                                                                 print("<Fire Giant Boss>")
                                                                 first_phase(Bdamage=random.randint(20, 50), blood_lost=2800)
                                                                 print("<giant screams>")
-                                                                sec_phase(player_life, Boss)
+                                                                
                                                                 sec_phase(player_life, Boss)
                                                                 
                                                                 upgrade()
@@ -9341,7 +9341,7 @@ if menu == "s" or menu == 'S':
                                                                 first_phase(Bdamage=random.randint(550, 700), blood_lost=3600)
                                                                 print("second phase")
                                                                 sec_phase(player_life, Boss)  
-                                                                sec_phase(player_life, Boss)
+                                                                
                                                                 
                                                                 upgrade()
                                                                 
@@ -9563,7 +9563,7 @@ if menu == "s" or menu == 'S':
                                                                 first_phase(Bdamage=random.randint(20, 50), blood_lost=2800)
                                                                 print("<giant screams>")
                                                                 sec_phase(player_life, Boss)
-                                                                sec_phase(player_life, Boss)
+                                                                
                                                                 
                                                                 upgrade()
                                                                 
@@ -9674,7 +9674,7 @@ if menu == "s" or menu == 'S':
                                                                 print("<Boss room>")
                                                                 first_phase(Bdamage=random.randint(550, 700), blood_lost=3600)
                                                                 print("second phase")
-                                                                sec_phase(player_life, Boss)  
+                                                                  
                                                                 sec_phase(player_life, Boss)
                                                                 
                                                                 upgrade()
@@ -9925,7 +9925,7 @@ if menu == "s" or menu == 'S':
                                                 print(f'{fg(52)}Morgot = Thy part in this shall not be forgiven{attr(0)}')
                                                 time.sleep(3)
                                                 sec_phase(player_life, Boss)    
-                                                sec_phase(player_life, Boss)
+                                                
                                                 
                                                 upgrade()
                                                 
@@ -10018,7 +10018,7 @@ if menu == "s" or menu == 'S':
                                                             print("<Fire Giant Boss>")
                                                             first_phase(Bdamage=random.randint(20, 50), blood_lost=2800)
                                                             print("<giant screams>")
-                                                            sec_phase(player_life, Boss)
+                                                            
                                                             sec_phase(player_life, Boss)
                                                             
                                                             upgrade()
@@ -10131,7 +10131,7 @@ if menu == "s" or menu == 'S':
                                                             first_phase(Bdamage=random.randint(550, 700), blood_lost=3600)
                                                             print("second phase")
                                                             sec_phase(player_life, Boss)  
-                                                            sec_phase(player_life, Boss)
+                                                            
                                                             
                                                             upgrade()
                                                             
@@ -10353,11 +10353,7 @@ if menu == "s" or menu == 'S':
                                                             first_phase(Bdamage=random.randint(20, 50), blood_lost=2800)
                                                             print("<giant screams>")
                                                             sec_phase(player_life, Boss)
-                                                            sec_phase(player_life, Boss)
-                                                            
-                                                            upgrade()
-                                                            
-                                                            
+                                                            upgrade()                                                          
                                                             print("After you kill the giant you finaly arriva to the Jar")
                                                             time.sleep(2)
                                                             print("After you glimb the Jar you arrive to the top")
@@ -10465,7 +10461,7 @@ if menu == "s" or menu == 'S':
                                                             first_phase(Bdamage=random.randint(550, 700), blood_lost=3600)
                                                             print("second phase")
                                                             sec_phase(player_life, Boss)  
-                                                            sec_phase(player_life, Boss)
+                                                            
                                                             
                                                             upgrade()
                                                             
