@@ -1,4 +1,7 @@
 # progetto
+
+!!Importate che si scarichi tutte le immagini e librerie per far funzionare il programma!!
+
 Suddivisioni Compiti
 1. Lupascu Svolgimento delle funzioni.
 2. Me Capo reparto, creazione del codice finale, creazione dei dialoghi e creazione
